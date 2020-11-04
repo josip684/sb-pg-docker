@@ -13,6 +13,8 @@ public class Person {
     @NotBlank
     private final String name;
 
+    private String role;
+
     public Person(@JsonProperty("id") UUID id, @JsonProperty("name") String name) {
         this.id = id;
         this.name = name;
