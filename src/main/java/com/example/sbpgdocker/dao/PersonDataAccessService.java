@@ -22,7 +22,7 @@ public class PersonDataAccessService implements PersonDao {
 
     @Override
     public int insertPerson(UUID id, Person person) {
-        return jdbcTemplate.update("INSERT INTO person VALUES (?, ?)", "aaa-bbb", "B.B.");
+        return 0;
     }
 
     @Override
