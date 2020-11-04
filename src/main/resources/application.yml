@@ -1,0 +1,6 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://172.25.180.232/sbpgdockerdb
+    username: postgres
+    password: password
+    pool-size: 30
