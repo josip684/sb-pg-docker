@@ -1,6 +1,10 @@
 app:
   datasource:
-    jdbc-url: jdbc:postgresql://172.25.180.232/sbpgdockerdb
+    jdbc-url: jdbc:postgresql://172.18.241.211/sbpgdockerdb
     username: postgres
     password: password
     pool-size: 30
+
+spring:
+  flyway:
+    enabled: false
